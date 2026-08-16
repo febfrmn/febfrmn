@@ -22,7 +22,9 @@ jobs:
 
       - name: Fix CSS var colors (snk strips #)
         run: |
-          sed -E -i 's/(--c[0-9a-z]+):([0-9a-fA-F]{6})/\1:#\2/g' dist/snake.svg
+          chmod -R u+w dist
+          sed -E 's/(--c[0-9a-z]+):([0-9a-fA-F]{6})/\1:#\2/g' dist/snake.svg > /tmp/snake_fixed.svg
+          cp /tmp/snake_fixed.svg dist/snake.svg
           grep -oE '\-\-[a-z0-9]+:[^;]+' dist/snake.svg | sort -u
 
       - uses: crazy-max/ghaction-github-pages@v3.1.0
