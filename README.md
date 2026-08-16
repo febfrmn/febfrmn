@@ -42,6 +42,16 @@
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
 </p>
 
+## 📁 Projects
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [📦 **zip-bot**](https://github.com/febfrmn/zip-bot) | Telegram compression bot — ZIP / 7z / tar.gz, full inline keyboard, up to 2GB/file via Local Bot API, in-memory processing | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> |
+| [🧠 **hermes-skill-pack**](https://github.com/febfrmn/hermes-skill-pack) | Hermes Agent auto-load skill pack — audit, organize, anti-duplicate, strengthen + persona frameworks | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> |
+| [🔗 **har-capture-extension**](https://github.com/febfrmn/har-capture-extension) 🔒 | Chrome MV3 HAR capture — CDP, OOPIF/workers, WebSocket, local Export HAR, optional desktop bridge | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> |
+
+<sub>🔒 = private / source-available</sub>
+
 ## 📊 GitHub Stats
 
 <p align="center">
@@ -58,12 +68,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/febfrmn/febfrmn/output/snake.svg" alt="Snake animation" />
 </p>
-
-## 📌 Pinned Project
-
-| Repo | Description |
-|------|-------------|
-| 🔗 [har-capture-extension](https://github.com/febfrmn/har-capture-extension) | Chrome MV3 HAR capture — CDP, OOPIF/workers, WebSocket, export HAR |
 
 ---
 
