@@ -20,16 +20,16 @@ jobs:
           outputs: |
             dist/snake.svg?color_snake=F97316&color_dots=0EA5E9,F97316,0d1117
 
-      - name: Fix CSS var colors (snk strips #)
+      - name: Fix CSS var colors (snk strips #, dist read-only)
         run: |
-          chmod -R u+w dist
-          sed -E 's/(--c[0-9a-z]+):([0-9a-fA-F]{6})/\1:#\2/g' dist/snake.svg > /tmp/snake_fixed.svg
-          cp /tmp/snake_fixed.svg dist/snake.svg
-          grep -oE '\-\-[a-z0-9]+:[^;]+' dist/snake.svg | sort -u
+          mkdir -p out
+          cp dist/snake.svg out/snake.svg
+          sed -E 's/(--c[0-9a-z]+):([0-9a-fA-F]{6})/\1:#\2/g' out/snake.svg > out/snake_fixed.svg
+          mv out/snake_fixed.svg out/snake.svg
+          grep -oE '\-\-[a-z0-9]+:[^;]+' out/snake.svg | sort -u
 
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+      - uses: peaceiris/actions-gh-pages@v3
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
+          publish_branch: output
