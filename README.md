@@ -47,7 +47,8 @@
 | Project | Description | Stack |
 |---------|-------------|-------|
 | [📦 **zip-bot**](https://github.com/febfrmn/zip-bot) | Telegram compression bot — ZIP / 7z / tar.gz, full inline keyboard, up to 2GB/file via Local Bot API, in-memory processing | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> |
-| [🧠 **hermes-skill-pack**](https://github.com/febfrmn/hermes-skill-pack) | Hermes Agent auto-load skill pack — audit, organize, anti-duplicate, strengthen + persona frameworks | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> |
+| [🧠 **hermes-skill-pack**](https://github.com/febfrmn/hermes-skill-pack) | Hermes Agent auto-load skill pack — skill meta-management (audit, organize, anti-duplicate, strengthen, auto-create, soul-loader) | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> |
+| [⚡ **i-tlg**](https://github.com/febfrmn/i-tlg) | ITLG auto-claim bot — mining 4 jam, group mining, recovery otomatis, login sekali OTP/selfie, full bahasa Indonesia | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> |
 | [🔗 **har-capture-extension**](https://github.com/febfrmn/har-capture-extension) 🔒 | Chrome MV3 HAR capture — CDP, OOPIF/workers, WebSocket, local Export HAR, optional desktop bridge | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> |
 
 <sub>🔒 = private / source-available</sub>
