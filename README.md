@@ -13,7 +13,7 @@
   <a href="https://github.com/febfrmn?tab=repositories">
     <img src="https://img.shields.io/badge/Repos-Open%20Source-0EA5E9?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=febfrmn.febfrmn" />
+  <img src="https://komarev.com/ghpvc/?username=febfrmn&style=for-the-badge&color=F97316&label=visitors" />
 </p>
 
 ---
@@ -67,6 +67,12 @@
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/febfrmn/febfrmn/output/snake.svg" alt="Snake animation" />
+</p>
+
+## 📈 Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=febfrmn&theme=react-dark&hide_border=true&bg_color=0d1117&color=F97316&line=0EA5E9&point=ffffff&area=true&area_color=0EA5E9" alt="Activity graph" />
 </p>
 
 ---
