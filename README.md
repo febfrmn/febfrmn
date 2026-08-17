@@ -46,9 +46,10 @@
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [📦 **zip-bot**](https://github.com/febfrmn/zip-bot) | Telegram compression bot — ZIP / 7z / tar.gz, full inline keyboard, up to 2GB/file via Local Bot API, in-memory processing | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> |
-| [🧠 **hermes-skill-pack**](https://github.com/febfrmn/hermes-skill-pack) | Hermes Agent auto-load skill pack — skill meta-management (audit, organize, anti-duplicate, strengthen, auto-create, soul-loader) | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> |
-| [⚡ **i-tlg**](https://github.com/febfrmn/i-tlg) | ITLG auto-claim bot — mining 4 jam, group mining, recovery otomatis, login sekali OTP/selfie, full bahasa Indonesia | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> |
+| [📦 **zip-bot**](https://github.com/febfrmn/zip-bot) | Telegram compression bot — ZIP / 7z / tar.gz, full inline keyboard, up to 2GB/file via Local Bot API, in-memory processing | <img src="https://img.shields.io/github/languages/top/febfrmn/zip-bot?style=flat-square&color=0EA5E9" /> |
+| [🎯 **nft-s**](https://github.com/febfrmn/nft-s) | NFT sniper bot — auto-fire mint multi-chain (EVM + Solana), OpenSea/Seadrop browse, EIP-7702 sponsored mint, i18n id/en/zh | <img src="https://img.shields.io/github/languages/top/febfrmn/nft-s?style=flat-square&color=0EA5E9" /> |
+| [⚡ **i-tlg**](https://github.com/febfrmn/i-tlg) | ITLG auto-claim bot — mining 4 jam, group mining, recovery otomatis, login sekali OTP/selfie, full bahasa Indonesia | <img src="https://img.shields.io/github/languages/top/febfrmn/i-tlg?style=flat-square&color=0EA5E9" /> |
+| [🧠 **hermes-skill-pack**](https://github.com/febfrmn/hermes-skill-pack) | Hermes Agent auto-load skill pack — skill meta-management (audit, organize, anti-duplicate, strengthen, auto-create, soul-loader) | <img src="https://img.shields.io/github/languages/top/febfrmn/hermes-skill-pack?style=flat-square&color=0EA5E9" /> |
 | [🔗 **har-capture-extension**](https://github.com/febfrmn/har-capture-extension) 🔒 | Chrome MV3 HAR capture — CDP, OOPIF/workers, WebSocket, local Export HAR, optional desktop bridge | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> |
 
 <sub>🔒 = private / source-available</sub>
